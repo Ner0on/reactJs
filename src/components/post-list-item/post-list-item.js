@@ -41,7 +41,8 @@ export default class PostListItem extends Component {
             <div className={classNames}>
                 <span 
                     onClick={this.onLike}
-                    className='app-list-item-label'>
+                    className='app-list-item-label'
+                >
                     {label}
                 </span>
                 <div className="d-flex justify-content-center align-items-center">
